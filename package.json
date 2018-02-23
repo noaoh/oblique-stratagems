@@ -1,0 +1,11 @@
+{
+  "name": "oblique-stratagems",
+  "version": "1.0.0",
+  "description": "A collection of all of Brian Eno's oblique strategies, organized by edition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noaoh",
+  "license": "ISC"
+}
