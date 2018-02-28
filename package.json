@@ -1,11 +1,27 @@
 {
-  "name": "oblique-stratagems",
   "version": "1.0.0",
   "description": "A collection of all of Brian Eno's oblique strategies, organized by edition",
+  "author": "noaoh",
+  "bin" : {
+          "oblique-strategy" : "draw.js"
+  },
+  "bugs" : {
+          "url" : "https://github.com/noaoh/oblique-stratagems/issues",
+  },
+  "keywords" : [
+          "oblique strategies",
+          "brian eno",
+          "eno",
+          "roadblock",
+          "creativity"
+  ],
+  "repository" : {
+          "type" : "git",
+          "url" : "git://github.com/noaoh/oblique-stratagems.git",
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "noaoh",
   "license": "ISC"
 }
