@@ -4,17 +4,11 @@ var oblique = require('./index.js');
 
 function handle_arg(arg = "combined")
 {
-        if(["1","2","3","4"].includes(arg)) {
-			var val = "edition" + arg;
-			return val;
+        if(["1","2","3","4", "5", "combined"].includes(arg)) {
+	        return arg;	
         }
-		
-        else if (arg === "combined") {
-			return arg;
-        }
-		
         else {
-			return "Not a valid edition";
+                return "Not a valid edition";
         }
 }
 
