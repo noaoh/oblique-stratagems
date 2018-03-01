@@ -4,7 +4,7 @@ var path = require('path');
 var json_path = path.join(__dirname, 'assets', 'oblique-strategies.json');
 var oblique_strategies = JSON.parse(fs.readFileSync(json_path, 'utf8'));
 
-exports.oblique_strategies = oblique_strategies;
+exports.strategies = oblique_strategies;
 exports.draw = function draw(edition = "combined") {
         if (!["1", "2", "3", "4", "5", "combined"].includes(edition)) {
                 return false;
