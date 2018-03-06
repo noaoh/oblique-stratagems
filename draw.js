@@ -1,5 +1,5 @@
 #!/usr/bin/env nodejs
-var oblique = require('./index.js');
+import draw from './index.js';
 
 function handle_arg(arg = "combined")
 {
@@ -11,4 +11,4 @@ function handle_arg(arg = "combined")
         }
 }
 
-console.log("\n" + oblique.draw(handle_arg(process.argv[2])) + "\n")
+console.log("\n" + draw(handle_arg(process.argv[2])) + "\n")
