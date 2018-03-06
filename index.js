@@ -1,4 +1,3 @@
-#!/usr/bin/env nodejs
 var fs = require('fs');
 var path = require('path');
 var json_path = path.join(__dirname, 'assets', 'oblique-strategies.json');

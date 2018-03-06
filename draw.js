@@ -1,5 +1,4 @@
 #!/usr/bin/env nodejs
-
 var oblique = require('./index.js');
 
 function handle_arg(arg = "combined")
