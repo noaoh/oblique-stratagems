@@ -1,5 +1,5 @@
 #!/usr/bin/env nodejs
-import draw from './index.js';
+import {draw} from './index.js';
 
 function handle_arg(arg = "combined")
 {

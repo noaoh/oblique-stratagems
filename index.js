@@ -1,6 +1,7 @@
-import oblique_strategies from './assets/oblique-strategies.json';
+import * as strategies from './assets/oblique-strategies.json';
 
-export oblique_strategies = oblique_strategies;
+export var oblique_strategies = strategies;
+
 export function draw(edition = "combined") {
         if (!["1", "2", "3", "4", "5", "combined"].includes(edition)) {
                 return false;
